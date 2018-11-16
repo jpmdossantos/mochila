@@ -6,7 +6,7 @@ function [ offspring ] = mutation( children )
     prob = 0.15;
     if rand <= prob
    	 pos = randi(N);
-	    offspring(1,pos)=~offspring(1,pos);
+         offspring(1,pos)=~offspring(1,pos);
     end
     
     if rand <= prob
